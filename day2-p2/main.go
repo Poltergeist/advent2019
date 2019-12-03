@@ -2,8 +2,7 @@ package main
 
 import (
 	"bufio"
-	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"strconv"
 	"strings"
@@ -31,7 +30,7 @@ func main() {
 				output[1] = p1
 				output[2] = p2
 				if process(output) == 19690720 {
-					fmt.Println(100*p1 + p2)
+					log.Info(100*p1 + p2)
 					return
 				}
 			}
