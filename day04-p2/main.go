@@ -26,7 +26,7 @@ func checkNumber(count int) bool {
 	last := 0
 	double := make(map[int]string)
 	for _, digit := range fmt.Sprintf("%d", count) {
-		i := normalize(digit)
+		i := Normalize(digit)
 		if last > i {
 			return false
 		}
@@ -50,7 +50,7 @@ func checkNumber(count int) bool {
 	return false
 }
 
-func normalize(digit rune) int {
+func Normalize(digit rune) int {
 	digit = digit - 48
 	return int(digit)
 }
