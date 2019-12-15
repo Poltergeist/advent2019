@@ -7,6 +7,7 @@ require (
 	github.com/bombsimon/wsl v1.2.8 // indirect
 	github.com/cweill/gotests v1.5.3 // indirect
 	github.com/davidrjenni/reftools v0.0.0-20191020193632-c872ffe85332 // indirect
+	github.com/fatih/color v1.7.0
 	github.com/fatih/gomodifytags v1.0.1 // indirect
 	github.com/fatih/structtag v1.1.0 // indirect
 	github.com/go-critic/go-critic v0.4.0 // indirect
